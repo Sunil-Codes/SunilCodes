@@ -37,7 +37,7 @@ var jsonData = JSON.stringify(data)
 const url = "https://us1.api.mailchimp.com/3.0/lists/149c986b1fa"
 const option = {
     method: "POST",
-    auth:"sunil:7c70fbefe139ef4f34e095bd68f2ee33-us1"
+    auth:"sunil:2d2468fd722c50b6c5b3b9e6fbe103dc-us1"
 }
 
 
