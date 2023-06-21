@@ -2,6 +2,8 @@ const express = require("express")
 const bodyParser = require("body-parser")
 const https = require("https")
 const request = require("request")
+const PORT = process.env.PORT || 3030;
+
 // const client = require("@mailchimp/mailchimp_marketing");
 const app = express()
 
@@ -71,7 +73,7 @@ app.get("/", function (req,res) {
 
 
 
-app.listen("3000", function () {
+app.listen(PORT, function () {
     console.log("server started on port no 3000")
 })
 
