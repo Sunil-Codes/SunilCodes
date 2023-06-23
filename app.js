@@ -2,7 +2,7 @@ const express = require("express")
 const bodyParser = require("body-parser")
 const https = require("https")
 const request = require("request")
-const PORT = process.env.PORT || 3030;
+const PORT = 3000;
 
 // const client = require("@mailchimp/mailchimp_marketing");
 const app = express()
@@ -37,7 +37,7 @@ var jsonData = JSON.stringify(data)
 const url = "https://us1.api.mailchimp.com/3.0/lists/149c986b1fa"
 const option = {
     method: "POST",
-    auth:"sunil:2d2468fd722c50b6c5b3b9e6fbe103dc-us1"
+    auth:"sunil:3d740cbf7e6030c0e86177e832b37d4e-us1"
 }
 
 
